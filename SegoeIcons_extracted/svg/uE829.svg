@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+  <g transform="matrix(1 0 0 -1 0 2048)">
+    <path d="M847 576Q810 576 780.0 595.0Q750 614 733 647L320 1472H1728L1315 647Q1298 614 1268.0 595.0Q1238 576 1201 576Z" fill="black" />
+  </g>
+</svg>
