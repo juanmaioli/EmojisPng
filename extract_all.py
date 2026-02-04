@@ -137,7 +137,7 @@ def extract_from_font(font_path):
         else:
             print("La versión COLR v1 es compleja (gradientes/transiciones) y no se puede extraer fácilmente a SVG simple.")
 
-fonts = ['AppleColorEmoji.ttf', 'NotoColorEmoji.ttf', 'twemoji.ttf', 'SegoeUIColorEmoji.ttf', 'openmojicolor.ttf']
+fonts = ['AppleColorEmoji.ttf', 'NotoColorEmoji-Regular.ttf', 'TwEmoji.ttf', 'SegoeUIColorEmoji.ttf', 'OpenmojiColor.ttf']
 for f in fonts:
     if os.path.exists(f):
         extract_from_font(f)

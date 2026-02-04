@@ -7,23 +7,24 @@ El proyecto ha evolucionado para soportar múltiples formatos y tecnologías de 
 
 1.  **Bitmaps (PNG)**: Extracción de activos de alta resolución desde tablas `CBDT/CBLC` y `sbix`.
 2.  **Vectores Nativos (SVG)**: Recuperación de documentos SVG integrados en las fuentes.
-3.  **Vectores por Capas (COLR/CPAL)**: Reconstrucción de emojis vectoriales a partir de capas de colores (Soporte para COLR v0).
-4.  **Mapeo Inteligente**: Nombramiento automático basado en el estándar Unicode.
+3.  **Vectores por Capas (COLR v0)**: Reconstrucción de emojis vectoriales a partir de capas de colores (Twemoji, OpenMoji).
+4.  **Renderizado Avanzado (COLR v1)**: Nuevo soporte experimental para renderizar fuentes modernas con gradientes (Noto Color Emoji) utilizando `blackrenderer` y `Cairo`.
 
 ## 📁 Biblioteca de Activos
 Los emojis se organizan por la fuente de origen y su formato:
 
-| Directorio | Origen | Formato | Cantidad |
+| Directorio | Origen | Formato | Notas |
 | :--- | :--- | :--- | :--- |
-| `AppleColorEmoji_extracted/` | **Apple / iOS** | PNG | 4229 activos |
-| `TwEmoji_extracted/` | **Twitter / X** | SVG | 3852 activos |
-| `OpenmojiColor_extracted/` | **OpenMoji** | SVG | 4147 activos |
-| `NotoColorEmoji_extracted/` | **Google / Android** | SVG/PNG | 684+ activos |
-| `SegoeUIColorEmoji_extracted/` | **Microsoft / Windows** | - | *En desarrollo (v1)* |
+| `AppleColorEmoji_extracted/` | **Apple / iOS** | PNG | 4229 bitmaps (137px). |
+| `TwEmoji_extracted/` | **Twitter / X** | SVG | 3852 vectores reconstruidos. |
+| `OpenmojiColor_extracted/` | **OpenMoji** | SVG | 4649 vectores (nativos + capas). |
+| `NotoColorEmoji-Regular_extracted/` | **Google / Android** | SVG/PNG | 711 vectores nativos + soporte de renderizado v1. |
+| `rendered_colrv1/` | **Renderizados** | PNG | Ejemplos de alta calidad (256px) generados desde COLR v1. |
 
 ## 🛠️ Herramientas
-- `extract_all.py`: Script principal que detecta automáticamente las tablas de la fuente (CBDT, sbix, SVG, COLR) y extrae los activos en el mejor formato posible.
-- `extract_emoji.py`: Script original para extracción básica de bitmaps.
+- `extract_all.py`: Script principal de extracción. Detecta automáticamente tablas `CBDT`, `sbix`, `SVG` y `COLR v0`.
+- `render_colrv1.py`: **Nueva herramienta** para renderizar emojis COLR v1 (requiere entorno virtual con `blackrenderer`).
+- `extract_emoji.py`: Script original para extracción básica.
 
 ## 👤 Autor
 Gestionado y procesado por **Juan Gabriel Maioli**.
