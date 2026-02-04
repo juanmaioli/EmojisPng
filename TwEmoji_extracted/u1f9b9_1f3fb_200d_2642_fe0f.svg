@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
-<g transform="matrix(1 0 0 -1 0 2048)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<g transform="matrix(1 0 0 -1 0 512)">
 <path d="M455 36Q480 23 487.5 -2.0Q495 -27 489 -45L484 -64H28Q27 -61 25.5 -56.0Q24 -51 22.5 -37.5Q21 -24 22.5 -12.0Q24 0 32.5 14.0Q41 28 57 36Q80 47 256.0 47.0Q432 47 455 36Z" fill="#292f33" />
 <path d="M171 -64 142 -21 256 -50 370 -21 341 -64Z" fill="#99aab5" />
 <path d="M256 -7 284 -21 256 -64 228 -21Z" fill="#99aab5" />
