@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+<g transform="matrix(1 0 0 -1 0 2048)">
+<path d="M147 678V92H202V678Z" fill="#000000" />
+<path d="M230 678V92H341V678Z" fill="#000000" />
+<path d="M369 678V92H480V678Z" fill="#000000" />
+<path d="M674 678V92H785V678Z" fill="#000000" />
+<path d="M896 678V92H1007V678Z" fill="#000000" />
+<path d="M507 678V92H563V678Z" fill="#000000" />
+<path d="M591 678V92H646V678Z" fill="#000000" />
+<path d="M813 678V92H868V678Z" fill="#000000" />
+<path d="M1035 678V92H1090V678Z" fill="#000000" />
+<path d="M1118 678V92H1173V678Z" fill="#000000" />
+<path d="M92 733V37H1228V733Z" fill="#ffffff" />
+<path d="M147 678V92H202V678Z" fill="#d22f27" />
+<path d="M230 678V92H341V678Z" fill="#d22f27" />
+<path d="M369 678V92H480V678Z" fill="#d22f27" />
+<path d="M674 678V92H785V678Z" fill="#61b2e4" />
+<path d="M896 678V92H1007V678Z" fill="#61b2e4" />
+<path d="M507 678V92H563V678Z" fill="#5c9e31" />
+<path d="M591 678V92H646V678Z" fill="#5c9e31" />
+<path d="M813 678V92H868V678Z" fill="#61b2e4" />
+<path d="M1035 678V92H1090V678Z" fill="#5c9e31" />
+<path d="M1118 678V92H1173V678Z" fill="#5c9e31" />
+<path d="M73 37Q73 18 92 18H1228Q1247 18 1247 37V733Q1247 752 1228 752H92Q73 752 73 733ZM110 715H1210V55H110Z" fill="#000000" />
+</g></svg>

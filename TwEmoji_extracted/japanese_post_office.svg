@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+<g transform="matrix(1 0 0 -1 0 2048)">
+<path d="M0 192H512V-36Q512 -47 503.5 -55.5Q495 -64 484 -64H28Q17 -64 8.5 -55.5Q0 -47 0 -36Z" fill="#aab8c2" />
+<path d="M0 192 256 282 512 192ZM114 377 256 448 398 377Z" fill="#66757f" />
+<path d="M28 164H484V107H28ZM28 78H484V21H28Z" fill="#55acee" />
+<path d="M85 178H427V-50H85Z" fill="#aab8c2" />
+<path d="M114 377H398V-64H114Z" fill="#ccd6dd" />
+<path d="M142 164H370V107H142ZM142 78H370V21H142Z" fill="#55acee" />
+<path d="M199 263H228V7H199ZM284 263H313V7H284Z" fill="#ccd6dd" />
+<path d="M228 -7H284V-64H228Z" fill="#3b88c3" />
+<path d="M185 348H327V320H185ZM185 292H327V263H270V206H242V263H185Z" fill="#dd2e44" />
+</g></svg>

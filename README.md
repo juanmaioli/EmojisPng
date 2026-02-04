@@ -1,28 +1,29 @@
 # 🎨 Proyecto de Recursos de Emojis
 
-Este repositorio contiene una colección completa de activos de emojis extraídos de la fuente **AppleColorEmoji.ttf** y organizados jerárquicamente.
+Este repositorio es una central de recursos de emojis, gestionando activos extraídos de las principales fuentes del mercado (**Apple, Google, Microsoft, Twitter y OpenMoji**).
 
-## 🚀 Proceso de Extracción y Mejora
-Se han procesado las tablas de la fuente original para obtener una biblioteca de activos lista para usar:
-1.  **Extracción de Bitmaps**: Recuperación de **4229 archivos PNG** desde la tabla `CBDC`.
-2.  **Mapeo Unicode**: Los archivos han sido nombrados descriptivamente (ej. `grinning_face.png`) utilizando la base de datos de Unicode.
-3.  **Análisis de Ligaduras**: Se procesó la tabla `GSUB` para identificar y nombrar correctamente secuencias complejas (parejas, familias, variaciones).
-4.  **Clasificación Inteligente**: Organización automática en 10 categorías temáticas.
+## 🚀 Capacidades de Extracción
+El proyecto ha evolucionado para soportar múltiples formatos y tecnologías de fuentes de emojis:
 
-## 📂 Estructura del Repositorio
-- 📁 **emojis_extracted/**: Biblioteca de imágenes PNG.
-    - `activities/`: Deportes, juegos y música.
-    - `animals_nature/`: Fauna, flora y clima.
-    - `flags/`: Banderas nacionales y regionales.
-    - `food_drink/`: Alimentos y bebidas.
-    - `objects/`: Tecnología y herramientas.
-    - `people_body/`: Personajes, gestos y anatomía.
-    - `smileys_emotions/`: Expresiones y sentimientos.
-    - `symbols/`: Iconos, signos y formas.
-    - `travel_places/`: Transporte y lugares.
-    - `others/`: Otros símbolos.
-- 📄 **AppleColorEmoji.ttf**: Archivo de fuente original.
-- 📄 **emoji.svg / emoji.xml**: Hojas de sprites de referencia.
+1.  **Bitmaps (PNG)**: Extracción de activos de alta resolución desde tablas `CBDT/CBLC` y `sbix`.
+2.  **Vectores Nativos (SVG)**: Recuperación de documentos SVG integrados en las fuentes.
+3.  **Vectores por Capas (COLR/CPAL)**: Reconstrucción de emojis vectoriales a partir de capas de colores (Soporte para COLR v0).
+4.  **Mapeo Inteligente**: Nombramiento automático basado en el estándar Unicode.
+
+## 📁 Biblioteca de Activos
+Los emojis se organizan por la fuente de origen y su formato:
+
+| Directorio | Origen | Formato | Cantidad |
+| :--- | :--- | :--- | :--- |
+| `AppleColorEmoji_extracted/` | **Apple / iOS** | PNG | 4229 activos |
+| `TwEmoji_extracted/` | **Twitter / X** | SVG | 3852 activos |
+| `OpenmojiColor_extracted/` | **OpenMoji** | SVG | 4147 activos |
+| `NotoColorEmoji_extracted/` | **Google / Android** | SVG/PNG | 684+ activos |
+| `SegoeUIColorEmoji_extracted/` | **Microsoft / Windows** | - | *En desarrollo (v1)* |
+
+## 🛠️ Herramientas
+- `extract_all.py`: Script principal que detecta automáticamente las tablas de la fuente (CBDT, sbix, SVG, COLR) y extrae los activos en el mejor formato posible.
+- `extract_emoji.py`: Script original para extracción básica de bitmaps.
 
 ## 👤 Autor
 Gestionado y procesado por **Juan Gabriel Maioli**.

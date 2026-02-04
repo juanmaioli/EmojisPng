@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+<g transform="matrix(1 0 0 -1 0 2048)">
+<path d="M295 753V23H1025V753Z" fill="#ffffff" />
+<path d="M277 23Q277 4 295 4H1025Q1043 4 1043 23V753Q1043 771 1025 771H295Q277 771 277 753ZM313 734H1007V41H313Z" fill="#000000" />
+</g></svg>
